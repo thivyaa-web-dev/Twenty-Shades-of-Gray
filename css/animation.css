@@ -1,0 +1,43 @@
+
+body{
+	background: gray;
+	/*background-image: url(../images/1.png);*/	                                                          
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.num{
+	animation-name: drive;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+
+}
+.num1{
+	animation-name: drive;
+	animation-duration: 4s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+
+}
+
+.num2{
+	animation-name: drive;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	/*animation-direction: reverse;*/
+
+
+}
+
+                                                 
+
+@keyframes drive{
+	from{transform: translate(-200px);}
+	to{transform: translate(1200px);}
+}
+
+
+
